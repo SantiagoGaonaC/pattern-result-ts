@@ -1,2 +1,0 @@
-class s{constructor(s,t,e,r){this.value=void 0,this.isSuccess=void 0,this.error=void 0,this.statusCode=void 0,this.value=s,this.isSuccess=t,this.error=e,this.statusCode=r}static success(t,e=200){return new s(t,!0,"",e)}static failure(t,e=400){return new s(void 0,!1,t,e)}toObject(){return{isSuccess:this.isSuccess,value:this.value,error:this.error,statusCode:this.statusCode}}static fromObject(t){return new s(t.value,t.isSuccess,t.error,t.statusCode)}}export{s as Result};
-//# sourceMappingURL=index.js.map
